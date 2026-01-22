@@ -7,6 +7,19 @@
   "roomId": "boardroom",
   "tilewidth": 32,
   "tileheight": 32,
+  "tilesets": [
+    {
+      "name": "base",
+      "firstgid": 1,
+      "image": "https://maps.workadventu.re/tilesets/base.png",
+      "imagewidth": 512,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 256,
+      "columns": 16
+    }
+  ],
   "layers": [
     {
       "name": "floor",
