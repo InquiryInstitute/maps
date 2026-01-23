@@ -72,5 +72,6 @@
   ],
   "startLayer": "floor",
   "startX": 800,
-  "startY": 900
+  "startY": 900,
+  "format": "1.0.0"
 }
