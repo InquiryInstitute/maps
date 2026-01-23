@@ -65,30 +65,9 @@
         }
       ],
       "visible": true,
-      "opacity": 1
-    },
-    {
-      "name": "areas",
-      "type": "objectgroup",
-      "objects": [
-        {
-          "id": 1,
-          "name": "Matrix Boardroom Chat",
-          "type": "area",
-          "x": 0,
-          "y": 0,
-          "width": 1600,
-          "height": 1000,
-          "properties": {
-            "chatZone": "#boardroom:inquiry.institute",
-            "openWebsite": "https://element.inquiry.institute/#/room/#boardroom:inquiry.institute",
-            "openWebsiteAllowApi": "true",
-            "openWebsiteTrigger": "onEnter"
-          }
-        }
-      ],
-      "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "width": null,
+      "height": null
     }
   ],
   "startLayer": "floor",
