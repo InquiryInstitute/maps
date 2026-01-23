@@ -90,6 +90,5 @@
   ],
   "startLayer": "floor",
   "startX": 800,
-  "startY": 900,
-  "script": "https://inquiryinstitute.github.io/maps/boardroom/boardroom-script.js"
+  "startY": 900
 }
