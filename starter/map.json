@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "mapUrl": "starter",
+  "mapName": "Welcome to Inquiry Institute",
+  "description": "Welcome room for the Inquiry Institute WorkAdventure",
+  "copyright": "Inquiry Institute",
+  "roomId": "starter",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilesets": [
+    {
+      "name": "base",
+      "firstgid": 1,
+      "image": "https://maps.workadventu.re/tilesets/base.png",
+      "imagewidth": 512,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 256,
+      "columns": 16
+    }
+  ],
+  "layers": [
+    {
+      "name": "floor",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "walls",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "furniture",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "entities",
+      "type": "objectgroup",
+      "objects": [
+        {
+          "id": 1,
+          "name": "entry",
+          "type": "entry",
+          "x": 400,
+          "y": 300,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "areas",
+      "type": "objectgroup",
+      "objects": [
+        {
+          "id": 1,
+          "name": "Boardroom Door",
+          "x": 600,
+          "y": 200,
+          "width": 64,
+          "height": 64,
+          "properties": {
+            "openWebsite": "https://grounds.inquiry.institute/_/global/inquiryinstitute.github.io/maps/boardroom/map.json",
+            "openWebsiteAllowApi": true,
+            "openWebsiteTrigger": "onAction",
+            "openWebsiteWidth": 1200,
+            "openWebsiteHeight": 800
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1
+    }
+  ],
+  "startLayer": "floor",
+  "startX": 400,
+  "startY": 300,
+  "script": "https://inquiryinstitute.github.io/maps/starter/welcome-room-board-members.js"
+}
