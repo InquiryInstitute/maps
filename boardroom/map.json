@@ -4893,5 +4893,7 @@
   ],
   "startLayer": "floor",
   "startX": 800,
-  "startY": 900
+  "startY": 900,
+  "width": 50,
+  "height": 32
 }
