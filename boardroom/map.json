@@ -77,10 +77,11 @@
           "width": 64,
           "height": 64,
           "properties": {
-            "chatZone": "#boardroom:inquiry.institute",
             "openWebsite": "https://element.inquiry.institute/#/room/#boardroom:inquiry.institute",
             "openWebsiteAllowApi": true,
-            "openWebsiteTrigger": "onEnter"
+            "openWebsiteTrigger": "onAction",
+            "openWebsiteWidth": 1200,
+            "openWebsiteHeight": 800
           }
         }
       ],
