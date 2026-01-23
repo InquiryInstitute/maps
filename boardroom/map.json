@@ -19,7 +19,9 @@
       "tilewidth": 32,
       "tileheight": 32,
       "tilecount": 256,
-      "columns": 16
+      "columns": 16,
+      "margin": 0,
+      "spacing": 0
     }
   ],
   "layers": [
