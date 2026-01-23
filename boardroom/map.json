@@ -71,16 +71,18 @@
       "objects": [
         {
           "id": 1,
-          "name": "Matrix Boardroom Chat",
-          "x": 0,
-          "y": 0,
-          "width": 1600,
-          "height": 1000,
+          "name": "Boardroom Door",
+          "x": 600,
+          "y": 200,
+          "width": 64,
+          "height": 64,
           "properties": {
-            "chatZone": "#boardroom:inquiry.institute",
             "openWebsite": "https://element.inquiry.institute/#/room/#boardroom:inquiry.institute",
-            "openWebsiteAllowApi": "true",
-            "openWebsiteTrigger": "onEnter"
+            "openWebsiteAllowApi": true,
+            "openWebsiteTrigger": "onAction",
+            "openWebsiteWidth": 1200,
+            "openWebsiteHeight": 800,
+            "chatZone": "#boardroom:inquiry.institute"
           }
         }
       ],
@@ -89,6 +91,7 @@
     }
   ],
   "startLayer": "floor",
-  "startX": 800,
-  "startY": 900
+  "startX": 400,
+  "startY": 300,
+  "script": "https://inquiryinstitute.github.io/maps/starter/welcome-room-board-members.js"
 }
