@@ -63,9 +63,7 @@
         }
       ],
       "visible": true,
-      "opacity": 1,
-      "width": null,
-      "height": null
+      "opacity": 1
     },
     {
       "name": "areas",
