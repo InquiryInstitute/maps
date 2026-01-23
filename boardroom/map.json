@@ -5,8 +5,6 @@
   "description": "Official board meeting room for the Inquiry Institute Council of Inquiry",
   "copyright": "Inquiry Institute",
   "roomId": "boardroom",
-  "width": 50,
-  "height": 32,
   "tilewidth": 32,
   "tileheight": 32,
   "tilesets": [
@@ -74,6 +72,5 @@
   ],
   "startLayer": "floor",
   "startX": 800,
-  "startY": 900,
-  "format": "1.0.0"
+  "startY": 900
 }
