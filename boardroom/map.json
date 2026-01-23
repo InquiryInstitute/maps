@@ -11,7 +11,7 @@
     {
       "name": "base",
       "firstgid": 1,
-      "image": "https://maps.workadventu.re/tilesets/base.png",
+      "image": "assets/base.png",
       "imagewidth": 512,
       "imageheight": 512,
       "tilewidth": 32,
