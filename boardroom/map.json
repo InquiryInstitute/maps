@@ -56,8 +56,8 @@
           "id": 1,
           "name": "entry",
           "type": "entry",
-          "x": 800,
-          "y": 900,
+          "x": 400,
+          "y": 300,
           "width": 32,
           "height": 32
         }
