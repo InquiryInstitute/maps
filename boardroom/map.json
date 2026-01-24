@@ -91,6 +91,5 @@
   ],
   "startLayer": "floor",
   "startX": 400,
-  "startY": 300,
-  "script": "https://inquiryinstitute.github.io/maps/starter/welcome-room-board-members.js"
+  "startY": 300
 }
