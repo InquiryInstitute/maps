@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "mapUrl": "starter",
-  "mapName": "Board of Directors Room",
-  "description": "Official board meeting room for the Inquiry Institute Council of Inquiry",
+  "mapUrl": "boardroom",
+  "mapName": "Welcome to Inquiry Institute",
+  "description": "Welcome room for the Inquiry Institute WorkAdventure",
   "copyright": "Inquiry Institute",
-  "roomId": "boardroom-test",
+  "roomId": "boardroom",
   "tilewidth": 32,
   "tileheight": 32,
   "tilesets": [
