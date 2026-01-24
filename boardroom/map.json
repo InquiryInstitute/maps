@@ -56,8 +56,8 @@
           "id": 1,
           "name": "entry",
           "type": "entry",
-          "x": 400,
-          "y": 300,
+          "x": 800,
+          "y": 900,
           "width": 32,
           "height": 32
         }
@@ -90,6 +90,6 @@
     }
   ],
   "startLayer": "floor",
-  "startX": 400,
-  "startY": 300
+  "startX": 800,
+  "startY": 900
 }
