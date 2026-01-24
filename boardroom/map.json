@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "mapUrl": "boardroom",
+  "mapUrl": "starter",
   "mapName": "Welcome to Inquiry Institute",
   "description": "Welcome room for the Inquiry Institute WorkAdventure",
   "copyright": "Inquiry Institute",
-  "roomId": "boardroom",
+  "roomId": "starter",
   "tilewidth": 32,
   "tileheight": 32,
   "tilesets": [
