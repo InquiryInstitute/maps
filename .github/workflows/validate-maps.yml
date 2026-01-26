@@ -1,0 +1,32 @@
+name: Validate Maps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.json'
+      - '**/*.tmj'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**/*.json'
+      - '**/*.tmj'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Validate Tiled maps
+        run: npm run validate
