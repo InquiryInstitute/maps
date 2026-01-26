@@ -28,7 +28,10 @@
       "width": 50,
       "height": 32,
       "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "id": 1,
+      "x": 0,
+      "y": 0
     },
     {
       "name": "walls",
@@ -37,7 +40,10 @@
       "width": 50,
       "height": 32,
       "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "id": 2,
+      "x": 0,
+      "y": 0
     },
     {
       "name": "furniture",
@@ -46,7 +52,10 @@
       "width": 50,
       "height": 32,
       "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "id": 3,
+      "x": 0,
+      "y": 0
     },
     {
       "name": "entities",
@@ -59,11 +68,16 @@
           "x": 400,
           "y": 300,
           "width": 32,
-          "height": 32
+          "height": 32,
+          "rotation": 0,
+          "visible": true
         }
       ],
       "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "id": 4,
+      "x": 0,
+      "y": 0
     },
     {
       "name": "areas",
@@ -76,20 +90,54 @@
           "y": 200,
           "width": 64,
           "height": 64,
-          "properties": {
-            "openWebsite": "https://grounds.inquiry.institute/_/global/inquiryinstitute.github.io/maps/boardroom/map.json",
-            "openWebsiteAllowApi": true,
-            "openWebsiteTrigger": "onAction",
-            "openWebsiteWidth": 1200,
-            "openWebsiteHeight": 800
-          }
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://grounds.inquiry.institute/_/global/inquiryinstitute.github.io/maps/boardroom/map.json"
+            },
+            {
+              "name": "openWebsiteAllowApi",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "openWebsiteTrigger",
+              "type": "string",
+              "value": "onAction"
+            },
+            {
+              "name": "openWebsiteWidth",
+              "type": "int",
+              "value": 1200
+            },
+            {
+              "name": "openWebsiteHeight",
+              "type": "int",
+              "value": 800
+            }
+          ],
+          "rotation": 0,
+          "visible": true
         }
       ],
       "visible": true,
-      "opacity": 1
+      "opacity": 1,
+      "id": 5,
+      "x": 0,
+      "y": 0
     }
   ],
   "startLayer": "floor",
   "startX": 400,
-  "startY": 300
+  "startY": 300,
+  "width": 50,
+  "height": 32,
+  "infinite": false,
+  "nextlayerid": 10,
+  "nextobjectid": 10,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.10.2",
+  "type": "map"
 }
