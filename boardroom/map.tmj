@@ -1,342 +1,402 @@
 {
- "compressionlevel":-1,
- "height":32,
- "infinite":false,
- "layers":[
-        {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":32,
-         "id":1,
-         "name":"floor",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":50,
-         "x":0,
-         "y":0
-        },
-        {
-         "data":[],
-         "height":32,
-         "id":2,
-         "name":"walls",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":50,
-         "x":0,
-         "y":0
-        },
-        {
-         "data":[],
-         "height":32,
-         "id":3,
-         "name":"furniture",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":50,
-         "x":0,
-         "y":0
-        },
-        {
-         "draworder":"topdown",
-         "id":4,
-         "name":"entities",
-         "objects":[
-                {
-                 "height":32,
-                 "id":1,
-                 "name":"entry",
-                 "rotation":0,
-                 "type":"entry",
-                 "visible":true,
-                 "width":32,
-                 "x":800,
-                 "y":900
-                }
-         ],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        },
-        {
-         "id":5,
-         "name":"areas",
-         "objects":[
-                {
-                 "height":1000,
-                 "id":1,
-                 "name":"Matrix Boardroom Chat",
-                 "properties":[
-                        {
-                         "name":"chatZone",
-                         "type":"string",
-                         "value":"#boardroom:inquiry.institute"
-                        },
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https://element.inquiry.institute/#/room/#boardroom:inquiry.institute"
-                        },
-                        {
-                         "name":"openWebsiteAllowApi",
-                         "type":"bool",
-                         "value":true
-                        },
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onEnter"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1600,
-                 "x":0,
-                 "y":0
-                },
-                {
-                 "height":32,
-                 "id":2,
-                 "name":"Left Seat 1",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"300,350"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":300,
-                 "y":350
-                },
-                {
-                 "height":32,
-                 "id":3,
-                 "name":"Left Seat 2",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"300,400"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":300,
-                 "y":400
-                },
-                {
-                 "height":32,
-                 "id":4,
-                 "name":"Left Seat 3",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"300,450"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":300,
-                 "y":450
-                },
-                {
-                 "height":32,
-                 "id":5,
-                 "name":"Left Seat 4",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"300,500"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":300,
-                 "y":500
-                },
-                {
-                 "height":32,
-                 "id":6,
-                 "name":"Left Seat 5",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"300,550"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":300,
-                 "y":550
-                },
-                {
-                 "height":32,
-                 "id":7,
-                 "name":"Right Seat 1",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"1300,350"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":1300,
-                 "y":350
-                },
-                {
-                 "height":32,
-                 "id":8,
-                 "name":"Right Seat 2",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"1300,400"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":1300,
-                 "y":400
-                },
-                {
-                 "height":32,
-                 "id":9,
-                 "name":"Right Seat 3",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"1300,450"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":1300,
-                 "y":450
-                },
-                {
-                 "height":32,
-                 "id":10,
-                 "name":"Right Seat 4",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"1300,500"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":1300,
-                 "y":500
-                },
-                {
-                 "height":32,
-                 "id":11,
-                 "name":"Right Seat 5",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"1300,550"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":1300,
-                 "y":550
-                },
-                {
-                 "height":32,
-                 "id":12,
-                 "name":"Heretic Seat",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"800,250"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":800,
-                 "y":250
-                },
-                {
-                 "height":32,
-                 "id":13,
-                 "name":"Parliamentarian Position",
-                 "properties":[
-                        {
-                         "name":"teleport",
-                         "type":"string",
-                         "value":"800,750"
-                        }
-                 ],
-                 "rotation":0,
-                 "type":"",
-                 "visible":false,
-                 "width":32,
-                 "x":800,
-                 "y":750
-                }
-         ],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }
+ "compressionlevel": -1,
+ "height": 32,
+ "infinite": false,
+ "layers": [
+  {
+   "data": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "height": 32,
+   "id": 1,
+   "name": "floor",
+   "opacity": 1,
+   "type": "tilelayer",
+   "visible": true,
+   "width": 50,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "data": [],
+   "height": 32,
+   "id": 2,
+   "name": "walls",
+   "opacity": 1,
+   "type": "tilelayer",
+   "visible": true,
+   "width": 50,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "data": [],
+   "height": 32,
+   "id": 3,
+   "name": "furniture",
+   "opacity": 1,
+   "type": "tilelayer",
+   "visible": true,
+   "width": 50,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "draworder": "topdown",
+   "id": 4,
+   "name": "entities",
+   "objects": [
+    {
+     "height": 32,
+     "id": 1,
+     "name": "entry",
+     "rotation": 0,
+     "type": "entry",
+     "visible": true,
+     "width": 32,
+     "x": 800,
+     "y": 900
+    }
+   ],
+   "opacity": 1,
+   "type": "objectgroup",
+   "visible": true,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "id": 5,
+   "name": "areas",
+   "objects": [
+    {
+     "height": 1000,
+     "id": 1,
+     "name": "Matrix Boardroom Chat",
+     "properties": [
+      {
+       "name": "chatZone",
+       "type": "string",
+       "value": "#boardroom:inquiry.institute"
+      },
+      {
+       "name": "openWebsite",
+       "type": "string",
+       "value": "https://element.inquiry.institute/#/room/#boardroom:inquiry.institute"
+      },
+      {
+       "name": "openWebsiteAllowApi",
+       "type": "bool",
+       "value": true
+      },
+      {
+       "name": "openWebsiteTrigger",
+       "type": "string",
+       "value": "onEnter"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": true,
+     "width": 1600,
+     "x": 0,
+     "y": 0
+    },
+    {
+     "height": 32,
+     "id": 2,
+     "name": "Left Seat 1",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "300,350"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 300,
+     "y": 350
+    },
+    {
+     "height": 32,
+     "id": 3,
+     "name": "Left Seat 2",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "300,400"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 300,
+     "y": 400
+    },
+    {
+     "height": 32,
+     "id": 4,
+     "name": "Left Seat 3",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "300,450"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 300,
+     "y": 450
+    },
+    {
+     "height": 32,
+     "id": 5,
+     "name": "Left Seat 4",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "300,500"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 300,
+     "y": 500
+    },
+    {
+     "height": 32,
+     "id": 6,
+     "name": "Left Seat 5",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "300,550"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 300,
+     "y": 550
+    },
+    {
+     "height": 32,
+     "id": 7,
+     "name": "Right Seat 1",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "1300,350"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 1300,
+     "y": 350
+    },
+    {
+     "height": 32,
+     "id": 8,
+     "name": "Right Seat 2",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "1300,400"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 1300,
+     "y": 400
+    },
+    {
+     "height": 32,
+     "id": 9,
+     "name": "Right Seat 3",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "1300,450"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 1300,
+     "y": 450
+    },
+    {
+     "height": 32,
+     "id": 10,
+     "name": "Right Seat 4",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "1300,500"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 1300,
+     "y": 500
+    },
+    {
+     "height": 32,
+     "id": 11,
+     "name": "Right Seat 5",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "1300,550"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 1300,
+     "y": 550
+    },
+    {
+     "height": 32,
+     "id": 12,
+     "name": "Heretic Seat",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "800,250"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 800,
+     "y": 250
+    },
+    {
+     "height": 32,
+     "id": 13,
+     "name": "Parliamentarian Position",
+     "properties": [
+      {
+       "name": "teleport",
+       "type": "string",
+       "value": "800,750"
+      }
+     ],
+     "rotation": 0,
+     "type": "",
+     "visible": false,
+     "width": 32,
+     "x": 800,
+     "y": 750
+    }
+   ],
+   "opacity": 1,
+   "type": "objectgroup",
+   "visible": true,
+   "x": 0,
+   "y": 0
+  }
  ],
- "nextlayerid":6,
- "nextobjectid":14,
- "orientation":"orthogonal",
- "renderorder":"right-down",
- "tiledversion":"1.10.2",
- "tileheight":32,
- "tilesets":[
-        {
-         "firstgid":1,
-         "source":"../tilesets/base.json"
-        }
+ "nextlayerid": 6,
+ "nextobjectid": 14,
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "tiledversion": "1.10.2",
+ "tileheight": 32,
+ "tilesets": [
+  {
+   "columns": 16,
+   "firstgid": 1,
+   "image": "assets/base.png",
+   "imageheight": 512,
+   "imagewidth": 512,
+   "margin": 0,
+   "name": "base",
+   "spacing": 0,
+   "tilecount": 256,
+   "tileheight": 32,
+   "tilewidth": 32
+  }
  ],
- "tilewidth":32,
- "type":"map",
- "version":"1.10",
- "width":50
+ "tilewidth": 32,
+ "type": "map",
+ "version": "1.10",
+ "width": 50
 }
