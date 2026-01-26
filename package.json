@@ -1,0 +1,25 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "This repository hosts WorkAdventure maps for the Inquiry Institute.",
+  "main": "check-tileset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node validate-maps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InquiryInstitute/maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/InquiryInstitute/maps/issues"
+  },
+  "homepage": "https://github.com/InquiryInstitute/maps#readme",
+  "dependencies": {
+    "@workadventure/tiled-map-type-guard": "^2.1.2"
+  }
+}
