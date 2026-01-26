@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "mapUrl": "boardroom",
+  "mapName": "Board of Directors Room",
+  "description": "Official board meeting room for the Inquiry Institute Council of Inquiry",
+  "copyright": "Inquiry Institute",
+  "roomId": "boardroom",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilesets": [
+    {
+      "name": "base",
+      "firstgid": 1,
+      "image": "https://maps.workadventu.re/tilesets/base.png",
+      "imagewidth": 512,
+      "imageheight": 512,
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 256,
+      "columns": 16
+    }
+  ],
+  "layers": [
+    {
+      "name": "floor",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "walls",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "furniture",
+      "type": "tilelayer",
+      "data": [],
+      "width": 50,
+      "height": 32,
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "entities",
+      "type": "objectgroup",
+      "objects": [
+        {
+          "id": 1,
+          "name": "entry",
+          "type": "entry",
+          "x": 800,
+          "y": 900,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "name": "areas",
+      "type": "objectgroup",
+      "objects": [
+        {
+          "id": 1,
+          "name": "Matrix Boardroom Chat",
+          "x": 0,
+          "y": 0,
+          "width": 1600,
+          "height": 1000,
+          "properties": {
+            "chatZone": "#boardroom:inquiry.institute",
+            "openWebsite": "https://element.inquiry.institute/#/room/#boardroom:inquiry.institute",
+            "openWebsiteAllowApi": true,
+            "openWebsiteTrigger": "onEnter"
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1
+    }
+  ],
+  "startLayer": "floor",
+  "startX": 800,
+  "startY": 900,
+  "script": "https://inquiryinstitute.github.io/maps/boardroom/boardroom-script.js"
+}
